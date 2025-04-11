@@ -27,3 +27,6 @@ def encrypt(key, env, output):
 def decrypt(key, env, output):
     """Decrypt an encrypted .env file."""
     decrypt_env_file(env, key, output)
+
+if __name__ == '__main__':
+    cli()
